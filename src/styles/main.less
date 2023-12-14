@@ -1,0 +1,23 @@
+@import 'mapas.less';
+@import 'reset.less';
+@import 'header.less';
+@import 'products.less';
+
+@breakpointMobile: ~"(max-width: 767px)";
+@breakpointTablet: ~"(max-width: 1023px)";
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 56px 0;
+}
+
+@media @breakpointTablet {
+    .container {
+        max-width: 80%;
+    }
+}
